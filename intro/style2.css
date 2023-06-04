@@ -1,0 +1,43 @@
+p{
+    font-family: arial;
+
+}
+
+#video-title{
+    font-weight: bold;
+    font-size: 20px;
+    width: 350px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+#video-stats{
+    margin-top: 0px;
+    font-size: 14px;
+    color: rbg grey;
+    margin-bottom: 15px;
+}
+#creator{
+    margin-top: 0px;
+    font-size: 14px;
+    color: rbg grey;
+    margin-bottom: 15px;
+}
+#description{
+    margin-top: 0px;
+    font-size: 14px;
+    color: rbg grey;
+    margin-bottom: 30px;
+    width: 300px;
+}
+#fakebutton{
+    background-color:  rgb(200,0,0);
+    color :white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width :600px;
+}
+#link:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
