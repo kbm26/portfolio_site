@@ -1,0 +1,45 @@
+img {
+  width: 300px;
+}
+p {
+  font-family: arial;
+}
+.video-block {
+  max-width: 300px;
+  display: inline-block;
+}
+#video-title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+#video-stats {
+  display: inline-block;
+
+  margin-top: 0px;
+  font-size: 14px;
+  color: rbg grey;
+  margin-bottom: 5px;
+}
+#creator {
+  font-size: 14px;
+  color: rbg grey;
+  margin-bottom: 5px;
+}
+#pp {
+    width:100px;
+    display: inline-block;
+}
+
+#info {
+  width: 200px;
+  display: inline-block;
+
+}
+
+#profile-pic{
+    width: 100%;
+}
