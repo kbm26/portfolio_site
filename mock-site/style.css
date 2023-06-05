@@ -4,6 +4,7 @@ img {
 
 p {
   font-family: Roboto, arial;
+  margin-top: 10px;
 }
 
 .video-block {
@@ -14,7 +15,6 @@ p {
   margin-top: 0px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 29px;
   margin-bottom: 5px;
 }
 #video-stats {
@@ -37,7 +37,7 @@ p {
 }
 
 #info {
-  width: 200px;
+  width: 240px;
   display: inline-block;
 
 }
