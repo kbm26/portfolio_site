@@ -1,12 +1,14 @@
 #video-grid{
   display:grid;
-  grid-template-columns:  300px;
-  grid-template-rows: 272px;
-
+  grid-template-columns:  300px 300px 300px;
+  grid-template-rows: 272px 272px 272px ;
+  column-gap: 27px;
+  row-gap: 27px;
 
 }
+
 img {
-  width: 300px;
+  width: 100%;
 }
 
 p {
@@ -18,12 +20,14 @@ p {
   max-width: 300px;
   display: inline-block;
 }
+
 #video-title {
   margin-top: 0px;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 5px;
 }
+
 #video-stats {
   display: inline-block;
   font-weight: normal;
@@ -55,4 +59,53 @@ p {
 }
 #youtubeBox{
   margin-top: 10px;
+}
+body{
+  margin:0px;
+}
+
+#navbar{
+  height: 60px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#left{
+  display: flex;
+  flex-direction: row;
+  width: 155px;
+  background-color:aqua ;
+  align-items: center;
+
+}
+#search{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  margin-left: 70px;
+  margin-right: 70px;
+  max-width: 500px;
+  align-items: center;
+}
+#right{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  background-color: blueviolet;
+  align-items: end;
+
+}
+#burger{
+  width:20px ;
+  display: flex;
+  flex-direction: column;
+
+}
+#yt{
+  width:100px ;
+  display: flex;
+  flex-direction: column;
+
 }

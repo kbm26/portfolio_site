@@ -1,0 +1,37 @@
+.flexbox{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    align-items:center;
+
+}
+.fb{
+    flex-direction: column;
+    background-color: aqua;
+    width :300px;
+
+}
+
+.fb2{
+    flex-direction: column;
+    background-color: purple;
+    width :300px;
+
+}
+
+.fb3{
+    flex-direction: column;
+    background-color: green;
+    width :300px;
+
+}
+
+.fb4{
+    flex-direction: column;
+    background-color: red;
+    flex:1;
+
+}
