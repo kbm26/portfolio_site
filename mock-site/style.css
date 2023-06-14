@@ -82,7 +82,7 @@ body{
 }
 #search{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex:1;
   margin-left: 70px;
   margin-right: 70px;
@@ -92,7 +92,7 @@ body{
 #right{
   display: flex;
   width: 200px;
-  flex-direction: column;
+  flex-direction: row;
   background-color: blueviolet;
   align-items: end;
 
